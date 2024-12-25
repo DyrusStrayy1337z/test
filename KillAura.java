@@ -32,7 +32,7 @@ import keystrokesmod.client.utils.CoolDown;
 import keystrokesmod.client.utils.Utils;
 import net.minecraft.entity.player.EntityPlayer;
 
-public class KillAura extends Module {
+public class SilentAura extends Module {
 
     private static EntityPlayer target;
     private List<EntityPlayer> pTargets;
@@ -58,8 +58,8 @@ public class KillAura extends Module {
      * @Since 10/6/2023
      * @CodeQuality GOOD.
      */
-    public KillAura() {
-        super("KillAura", ModuleCategory.combat);
+    public SilentAura() {
+        super("SilentAura", ModuleCategory.combat);
         this.registerSetting(reach = new SliderSetting("Reach", 3.3, 3, 6, 0.05));
         this.registerSetting(aps = new DoubleSliderSetting("Left CPS", 9, 13, 1, 60, 0.5));
         this.registerSetting(customRPS = new TickSetting("Custom Rotation Speed",false));
