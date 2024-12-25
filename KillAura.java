@@ -23,7 +23,7 @@ import org.apache.commons.lang3.RandomUtils;
 import com.google.common.eventbus.Subscribe;
 
 import keystrokesmod.client.module.Module;
-import keystrokesmod.client.module.modules.client.Targets;
+import keystrokesmod.client.module.impl.client.Targets;
 import keystrokesmod.client.module.setting.impl.ComboSetting;
 import keystrokesmod.client.module.setting.impl.DoubleSliderSetting;
 import keystrokesmod.client.module.setting.impl.SliderSetting;
